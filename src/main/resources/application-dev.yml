@@ -1,0 +1,25 @@
+#开发环境
+breakpoint:
+  upload:
+    dir: e:/data0/uploads/
+    #1024*1024=1 048 576,5M=5 242 880
+    chunkSize: 5 242 880
+
+
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    jedis:
+      pool:
+        max-active: 30
+        max-idle: 10
+        max-wait: 10000
+    timeout: 10000
+    #password: test
+
+    #timeout: 1000
+  servlet:
+    multipart:
+      max-file-size: 500MB
+      max-request-size: 1000MB

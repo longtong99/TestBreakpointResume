@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index2</title>
+</head>
+<body onload="myFunction()" onbeforeunload="return myFunction()"></body>
+<script src="http://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script>
+    function myFunction() {
+        $.get("index/hi",null,function (data) {
+            alert(111);
+        })
+    }
+</script>
+</html>
