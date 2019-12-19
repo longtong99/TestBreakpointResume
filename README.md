@@ -1,1 +1,1 @@
-# TestBreakpointResume
+springboot整合百度的前端插件，实现断点续传、秒传功能
